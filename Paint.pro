@@ -15,11 +15,15 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     maintoolbar.cpp \
-    tabaccueil.cpp
+    tabaccueil.cpp \
+    graphicsview.cpp \
+    centralwidget.cpp
 
 HEADERS  += mainwindow.h \
     maintoolbar.h \
-    tabaccueil.h
+    tabaccueil.h \
+    graphicsview.h \
+    centralwidget.h
 
 FORMS    += mainwindow.ui \
     maintoolbar.ui \
